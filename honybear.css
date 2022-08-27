@@ -1,51 +1,59 @@
 
-  .honeybear {
+.honeybear {
     width: 400px; margin: auto;
     background: #ddd; overflow: hidden;
     text-align: center; color: #222;
-  }
+}
 
-  .honeybear .pic {
+.honeybear .pic {
     width: 300px; height: 150px; background-size: cover!important;
     margin: 25px 0;
     filter: grayscale(1) brightness(.6) contrast(1.2);
-  }
+}
 
-  .honeybear .tint {
+.honeybear .tint {
     width: 100px; height: 150px;
     margin: -175px 0 0 300px;
     background: var(--mg-color);
-  }
+}
 
-  .honeybear h1 {
+.honeybear h1 {
     font: bold 10px/25px open sans; text-transform: uppercase;
     letter-spacing: 4px;
     display: inline-block; margin: 25px 0 05px 0;
     border-bottom: solid 2px var(--mg-color);
-  }
+}
 
-  .honeybear .body {
+.honeybear .body {
     padding: 25px; font: 11px/14px open sans;
     text-align: justify;
-  }
+}
 
-  .honeybear b {
+.honeybear b {
     color: var(--mg-color);
-  }
+}
 
-  .honeybear .notes {
+.honeybear .notes {
     margin: 0 0 25px 0; text-align: left;
     border-left: solid 100px var(--mg-color);
     padding-left: 5px; font: 9px/12px open sans;
     text-transform: uppercase;
-  }
+}
 
-  .honeybear .notes a {
+.honeybear .notes a {
     font: bold 9px open sans; color: var(--mg-color);
     text-decoration: none; letter-spacing: 1px;
     margin-right: 2px;
-  }
+}
 
-  .honeybear #cecil { background-image: url('https://i.pinimg.com/originals/6a/17/f1/6a17f10322e8f0317a1392b220f661d0.gif');}
-  .honeybear #algernon { background-image: url('https://64.media.tumblr.com/e184893087667767bb2de47899341cba/tumblr_or3bzedy1a1qc4t9yo2_540.gifv');}
-  .honeybear #thomas { background-image: url('https://64.media.tumblr.com/2e618f16d0c9447c3a3f25c0dc8e681c/4501cd77ddda6d5b-ac/s540x810/15f0fab21938a6517b542ce6b6b121aff95cfc5e.gifv');}
+.honeybear #cecil {
+    background-image: url('https://i.pinimg.com/originals/6a/17/f1/6a17f10322e8f0317a1392b220f661d0.gif');
+}
+
+.honeybear #algernon {
+    background-image: url('https://64.media.tumblr.com/e184893087667767bb2de47899341cba/tumblr_or3bzedy1a1qc4t9yo2_540.gifv');
+}
+
+.honeybear #thomas {
+    background-image: url('https://64.media.tumblr.com/2e618f16d0c9447c3a3f25c0dc8e681c/4501cd77ddda6d5b-ac/s540x810/15f0fab21938a6517b542ce6b6b121aff95cfc5e.gifv');
+}
