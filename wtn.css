@@ -6,6 +6,7 @@ div#timmehh {
 }
 
 #timmehh > header { 
+  color: rgba(var(--accent-bg));
   height: 20px; 
    background: var(--gradient1); 
    border-radius: 10px 10px 0px 0px; 
