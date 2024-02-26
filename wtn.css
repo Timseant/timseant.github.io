@@ -1,6 +1,7 @@
 div#timmehh { 
   margin: auto; 
-  width: 400px; 
+  width: 60%;
+  max-width: 470px;
   justify-content: center;
 }
 
