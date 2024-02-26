@@ -24,7 +24,10 @@ div#timmehh {
   text-justify: inter-word;
 } 
 
-#timmehh > p:first-of-type::first-line { font-variant-caps: all-small-caps; }
+#timmehh > p:first-of-type::first-line { 
+  font-variant-caps: all-small-caps;
+  font-size: 14px;
+}
 
 #timmehh > p > b { color: rgba(var(--accent-bg)); }
 #timmehh > p > i {color: rgba(var(--transition-bg));}
