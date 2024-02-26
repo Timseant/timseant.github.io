@@ -1,8 +1,12 @@
-div#timmehh { margin: auto; width: 470px; display: flex; justify-content: center;}
+div#timmehh { margin: auto; width: 400px; justify-content: center;}
 
-#timmehh > p > b { color: green; }
-#timmehh > p > i {color: var(--light-bg);}
-#timmehh > p > u {color: var(--gradient1); }
+#timmehh > header { height: 80px; background: var(--gradient1); border-radius: 10px 10px 0px 0px; padding: 25px;}
+#timmehh > header > img { max-height: 80px; border-radius: 5px; }
 
-#timmehh > footer { width: 80%; height: 20%; background-color: var(--transition-bg); }
+#timmehh > p { padding: 15px;} 
 
+#timmehh > p > b { color: rgba(var(--accent-bg)); }
+#timmehh > p > i {color: rgba(var(--light-bg));}
+#timmehh > p > u {color: rgba(var(--transition-bg)); }
+
+#timmehh > footer { height: 40px; background: var(--gradient2); padding: 15px; border-radius: 0px 0px 10px 10px;}
