@@ -3,3 +3,8 @@
 #timmehh > p > u {color: var(--gradient1); }
 
 #timmehh > footer { width: 80%; height: 20%; background-color: var(--transition-bg); }
+
+#timmehh { margin: auto;
+    width: 470px;
+    display: flex;
+    justify-content: center;}
