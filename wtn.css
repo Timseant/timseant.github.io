@@ -1,3 +1,5 @@
 #timmehh > p > b { color: green; }
 #timmehh > p > i {color: var(--light-bg);}
 #timmehh > p > u {color: var(--gradient1); }
+
+#timmehh > footer { width: 80%; height: 20%; background-color: var(--transition-bg); }
