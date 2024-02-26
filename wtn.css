@@ -1,9 +1,11 @@
 div#timmehh { margin: auto; width: 400px; justify-content: center;}
 
-#timmehh > header { height: 80px; background: var(--gradient1); border-radius: 10px 10px 0px 0px; padding: 25px;}
+#timmehh > header { height: 80px; background: var(--gradient1); border-radius: 10px 10px 0px 0px; padding: 25px; justify-content: left;}
 #timmehh > header > img { max-height: 80px; border-radius: 5px; }
 
-#timmehh > p { padding: 15px;} 
+#timmehh > p { padding: 15px;   text-align: justify;
+  text-justify: inter-word;
+ } 
 
 #timmehh > p > b { color: rgba(var(--accent-bg)); }
 #timmehh > p > i {color: rgba(var(--light-bg));}
