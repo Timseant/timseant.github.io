@@ -1,1 +1,3 @@
-#timmehh > b { color: green; }
+#timmehh > p > b { color: green; }
+#timmeh > p > i {color: red;}
+#timmeh > p > u {color:blue;}
