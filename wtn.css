@@ -48,3 +48,15 @@ div#timmehh {
   padding: 15px; 
   border-radius: 0px 0px 10px 10px;
 }
+
+
+/* https://resource.jcink.com/index.php?showtopic=2571 */
+.padmainbg {width:430px; height:500px; background-image:url(http://i44.tinypic.com/qpig5l.jpg); text-align:left; padding-left:50px; padding-top:50px; padding-bottom:20px;}
+
+.padcaption{width:400px; height: 530px; font-family: Dynalight; font-size:20px; line-height:21px; text-align:left; padding: 5px; }
+
+.padtape {width: 115px; height: 33px; background-image:url(http://i59.tinypic.com/2h7ovh2.jpg); position:absolute; margin-top: 25px; margin-left: 230px; -moz-transform: rotate(5deg); -webkit-transform: rotate(5deg); opacity: 0.8}
+
+.padpic { width: 200px; height:150px; float:right; padding:5px; background-image:url(http://placehold.it/200x150); border: #ddd solid 3px; position:relative; margin-top: 40px; margin-right: 45px; -moz-transform: rotate(5deg); -webkit-transform: rotate(5deg);  }
+
+.padcredit { -moz-transform: rotate(90deg); -webkit-transform: rotate(90deg);  position: relative; left: 220px; top: 100px; }
