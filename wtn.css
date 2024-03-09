@@ -22,10 +22,18 @@ div#timmehh {
 }
 
 #timmehh > p { 
-  padding: 15px;   
+  padding: 0px 15px;   
   text-align: justify;
   text-justify: inter-word;
 } 
+
+#timmehh > p:first-of-type {
+  padding: 15px 15px 0px 15px;
+}
+
+#timmehh > p:last-of-type {
+  padding: 0px 15px 15px 15px;
+}
 
 #timmehh > p:first-of-type::first-line { 
   font-variant-caps: all-small-caps;
