@@ -1,5 +1,9 @@
 /* https://phosphoricons.com/ */
 
+.post-preview > div >div> .timmeh > p {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
 div#timmehh { 
   margin: auto; 
   width: 60%;
