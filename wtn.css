@@ -1,7 +1,6 @@
 /* lizzie */
 .lizzie-post {
-  width: 7
-  50%;
+  width: 50%;
   background: var(--darkbg);
   padding: 5%;
   border-radius: 25px;
