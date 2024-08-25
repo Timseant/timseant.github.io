@@ -1,170 +1,202 @@
 /* lizzie */
-.lizzie-post { width: 80%; background: var(--darkbg);  padding: 5%; border-radius: 25px; text-align: left; margin: auto;}
+.lizzie-post {
+  width: 80%;
+  background: var(--darkbg);
+  padding: 5%;
+  border-radius: 25px;
+  text-align: left;
+  margin: auto;
+}
 
-.lizzie-post-heading {  border-radius: 25px; margin-bottom: 25px; height: 175px; padding: 25px; background: url(https://live.staticflickr.com/65535/53009113449_6c74cafbb8_4k.jpg); background-size: 100%; }
-.lizzie-post-heading img { max-height: 150px; max-width: 100%; border-radius: 25px;}
-.lizzie-post-heading tag a { color: var(--opposite) !important; font: 24px lucky; }
-.lizzie-post-heading tag a::before { content:"@"; }
+.lizzie-post-heading {
+  border-radius: 25px;
+  margin-bottom: 25px;
+  height: 175px;
+  padding: 25px;
+  background: url(https://live.staticflickr.com/65535/53009113449_6c74cafbb8_4k.jpg);
+  background-size: 100%;
+}
+.lizzie-post-heading img {
+  max-height: 150px;
+  max-width: 100%;
+  border-radius: 25px;
+}
+.lizzie-post-heading tag a {
+  color: var(--opposite) !important;
+  font: 24px lucky;
+}
+.lizzie-post-heading tag a::before {
+  content: "@";
+}
 
-.lizzie-post-content { background: var(--lightbg); padding: 5%; border-radius: 15px; }
-.lizzie-post-content b { font: lucky; background: var(--gradient2); font-style: italic; font-size: 120%;}
+.lizzie-post-content {
+  background: var(--lightbg);
+  padding: 5%;
+  border-radius: 15px;
+}
+.lizzie-post-content b {
+  font: lucky;
+  background: var(--gradient2);
+  font-style: italic;
+  font-size: 120%;
+}
 
-/* imdb for archer */ 
+/* imdb for archer */
 
 .imdb {
-        font-family: Roboto, Helvetica, Arial, sans-serif;
-        width: 70%;
-        text-align: left;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  width: 70%;
+  text-align: left;
 
-        margin: 1.5rem auto;
-        border-radius: 0.75rem;
-    }
+  margin: 1.5rem auto;
+  border-radius: 0.75rem;
+}
 
-    h1 {
-        font-size: 32px;
-        line-height:36px;
-        margin-block-end: 0;
-        margin-block-start: 0;
-    }
+h1 {
+  font-size: 32px;
+  line-height: 36px;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
 
-    .imdb-header ul {
-        font-size: 14px;
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        padding: 0;
-    }
+.imdb-header ul {
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
 
-    .imdb-header ul li {
-        position: relative;
-        margin-right: 15px;
-    }
+.imdb-header ul li {
+  position: relative;
+  margin-right: 15px;
+}
 
-    .imdb-header ul li::after {
-        content: "●";
-        font-size: 10;
-        position: absolute;
-        right: -12px;
-    }
+.imdb-header ul li::after {
+  content: "●";
+  font-size: 10;
+  position: absolute;
+  right: -12px;
+}
 
-    .imdb-header ul li:last-child::after {
-        content: "";
-    }
+.imdb-header ul li:last-child::after {
+  content: "";
+}
 
-    .imdb h2 {
-        position: relative;
-        margin-left: 1rem;
-        font-size: 32px;
-        line-height: 36px;
-    }
+.imdb h2 {
+  position: relative;
+  margin-left: 1rem;
+  font-size: 32px;
+  line-height: 36px;
+}
 
-    .imdb h2::before {
-        content: "";
-        /* background: #f5c518; */
-        background: var(--gradient1);
-        position: absolute;
-        left: -1rem;
-        top: 0;
-        height: 100%;
-        width: 4px;
-    }
+.imdb h2::before {
+  content: "";
+  /* background: #f5c518; */
+  background: var(--gradient1);
+  position: absolute;
+  left: -1rem;
+  top: 0;
+  height: 100%;
+  width: 4px;
+}
 
-    .imdb h3 {
-        font-size: 24px;
-    }
+.imdb h3 {
+  font-size: 24px;
+}
 
-    .imdb-header img {
-        border-radius: 5%;
-        max-height: 400px;
-        max-width: 100%;
-    }
+.imdb-header img {
+  border-radius: 5%;
+  max-height: 400px;
+  max-width: 100%;
+}
 
-    .imdb div {
-        padding: 4rem;
-    }
+.imdb div {
+  padding: 4rem;
+}
 
-    .imdb-header {
-        background: var(--gradient2);
-        border-radius: 0.75rem 0.75rem 0 0;
-        padding-bottom: 2rem !important;
-    }
+.imdb-header {
+  background: var(--gradient2);
+  border-radius: 0.75rem 0.75rem 0 0;
+  padding-bottom: 2rem !important;
+}
 
-    .imdb-profile {
-        background: var(--lightbg);
-        border-radius: 0 0 0.75rem 0.75rem;
-        padding-top: 1.5rem !important;
-    }
+.imdb-profile {
+  background: var(--lightbg);
+  border-radius: 0 0 0.75rem 0.75rem;
+  padding-top: 1.5rem !important;
+}
 
-    .imdb-profile p {
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 20px;
-    }
+.imdb-profile p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
 
-    .imdb-profile p rating {
-        font-size: 12px;
-        font-weight: normal;
-        color: orange;
-        display: block;
-    }
+.imdb-profile p rating {
+  font-size: 12px;
+  font-weight: normal;
+  color: orange;
+  display: block;
+}
 
-    .imdb-profile p rating:before {
-        content: "★";
-        display: inline-block;
-    }
+.imdb-profile p rating:before {
+  content: "★";
+  display: inline-block;
+}
 
-    .imdb-profile p role {
-        font-weight: normal;
-        font-size: 12px;
-        display: block;
-    }
+.imdb-profile p role {
+  font-weight: normal;
+  font-size: 12px;
+  display: block;
+}
 
-    .imdb-profile p year {
-        font-weight: normal;
-        font-size: 12px;
-        float: right;
-        color: grey;
-    }
+.imdb-profile p year {
+  font-weight: normal;
+  font-size: 12px;
+  float: right;
+  color: grey;
+}
 
-    .imdb-profile p img {
-        max-width: 40px;
-        border-radius: 10%;
-        float: left;
-        margin-right: 1rem;
-    }
+.imdb-profile p img {
+  max-width: 40px;
+  border-radius: 10%;
+  float: left;
+  margin-right: 1rem;
+}
 
 /* https://phosphoricons.com/ */
 
-.post-preview > div >div> .timmeh > p {
+.post-preview > div > div > .timmeh > p {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-div#timmehh { 
-  margin: auto; 
+div#timmehh {
+  margin: auto;
   width: 60%;
   max-width: 470px;
   justify-content: center;
 }
 
-#timmehh > header { 
+#timmehh > header {
   color: rgba(var(--accent-bg));
-  height: 20px; 
-   background: var(--gradient1); 
-   border-radius: 10px 10px 0px 0px; 
-   padding: 25px; 
-   text-align: right;
-   font-size: 24px;
+  height: 20px;
+  background: var(--gradient1);
+  border-radius: 10px 10px 0px 0px;
+  padding: 25px;
+  text-align: right;
+  font-size: 24px;
 }
-#timmehh > header > img { 
-  max-height: 80px; 
-  border-radius: 5px; 
+#timmehh > header > img {
+  max-height: 80px;
+  border-radius: 5px;
 }
 
-#timmehh > p { 
-  padding: 0px 15px;   
+#timmehh > p {
+  padding: 0px 15px;
   text-align: justify;
   text-justify: inter-word;
-} 
+}
 
 #timmehh > p:first-of-type {
   padding: 15px 15px 0px 15px;
@@ -174,28 +206,74 @@ div#timmehh {
   padding: 0px 15px 15px 15px;
 }
 
-#timmehh > p:first-of-type::first-line { 
+#timmehh > p:first-of-type::first-line {
   font-variant-caps: all-small-caps;
   font-size: 14px;
 }
 
-#timmehh > p > b { color: rgba(var(--accent-bg)); }
-#timmehh > p > i {color: rgba(var(--transition-bg));}
+#timmehh > p > b {
+  color: rgba(var(--accent-bg));
+}
+#timmehh > p > i {
+  color: rgba(var(--transition-bg));
+}
 
-#timmehh > footer { 
-  background: var(--gradient2); 
-  padding: 15px; 
+#timmehh > footer {
+  background: var(--gradient2);
+  padding: 15px;
   border-radius: 0px 0px 10px 10px;
 }
 
-
 /* https://resource.jcink.com/index.php?showtopic=2571 */
-.padmainbg {width:430px; height:500px;  text-align:left; padding-left:50px; padding-top:50px; padding-bottom:20px;}
+.padmainbg {
+  width: 430px;
+  height: 500px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
 
-.padcaption{width:400px; height: 530px; font-family: Dynalight; font-size:20px; line-height:21px; text-align:left; padding: 5px; }
+.padcaption {
+  width: 400px;
+  height: 530px;
+  font-family: Dynalight;
+  font-size: 20px;
+  line-height: 21px;
+  text-align: left;
+  padding: 5px;
+}
 
-.padtape {width: 115px; height: 33px; background-image:url(http://i59.tinypic.com/2h7ovh2.jpg); position:absolute; margin-top: 25px; margin-left: 230px; -moz-transform: rotate(5deg); -webkit-transform: rotate(5deg); opacity: 0.8}
+.padtape {
+  width: 115px;
+  height: 33px;
+  background-image: url(http://i59.tinypic.com/2h7ovh2.jpg);
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 230px;
+  -moz-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  opacity: 0.8;
+}
 
-.padpic { width: 200px; height:150px; float:right; padding:5px; background-image:url(http://placehold.it/200x150); border: #ddd solid 3px; position:relative; margin-top: 40px; margin-right: 45px; -moz-transform: rotate(5deg); -webkit-transform: rotate(5deg);  }
+.padpic {
+  width: 200px;
+  height: 150px;
+  float: right;
+  padding: 5px;
+  background-image: url(http://placehold.it/200x150);
+  border: #ddd solid 3px;
+  position: relative;
+  margin-top: 40px;
+  margin-right: 45px;
+  -moz-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+}
 
-.padcredit { -moz-transform: rotate(90deg); -webkit-transform: rotate(90deg);  position: relative; left: 220px; top: 100px; }
+.padcredit {
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  position: relative;
+  left: 220px;
+  top: 100px;
+}
