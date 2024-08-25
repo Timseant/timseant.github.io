@@ -24,6 +24,7 @@
 .lizzie-post-heading tag a {
   color: var(--opposite) !important;
   font: 24px lucky;
+  float: right;
 }
 .lizzie-post-heading tag a::before {
   content: "@";
